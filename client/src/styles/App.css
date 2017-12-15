@@ -1,0 +1,60 @@
+html,
+body,
+#root {
+    margin: 0;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5aadbb;
+}
+
+@media screen and (max-width: 499px) {
+    .album-container {
+        margin: 15px auto;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .album-container {
+        float: left;
+        margin: 15px 10px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    .albums-container {
+        width: 485px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .albums-container {
+        max-width: 518px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 989px) {
+    .albums-container {
+        width: 724px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .albums-container {
+        width: 980px;
+    }
+}
